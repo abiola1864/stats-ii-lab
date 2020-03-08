@@ -74,6 +74,7 @@ dag1 <- dagify(D ~ U,
 dag2 <- dagify(D ~ U + Z,
               W ~ Z, 
               Y ~ D + U + W)
+dag2
 ```
 
 **Now we can plot our DAG.**
