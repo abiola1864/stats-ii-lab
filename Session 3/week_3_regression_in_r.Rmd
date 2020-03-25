@@ -62,6 +62,7 @@ cp2 <- ggplot(dat, aes(x = beauty, y = talent,
   ylab("Talent") +
   geom_smooth(method = "lm", se = FALSE) +
   theme(legend.position = "none")
+cp2
 ```
 
 ```{r echo = FALSE}
