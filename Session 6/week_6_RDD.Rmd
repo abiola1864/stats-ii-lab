@@ -27,6 +27,8 @@ library(rdd) # for RDestimate()
 
 set.seed(42) # for consistent results
 
+
+
 mlda <- read.csv("./data/mlda.csv") # loading data from Mastering Metrics
 ```
 <br>
@@ -311,6 +313,10 @@ ggplot(cct_data,
   theme_minimal()
 ```
 <p> The LOESS smoothing is not very visible in this relationship because of the way we defined the simulated data. Let's look at how it would look in our drinking age example:
+
+
+
+
 <p>
 ```{r fig.align="center"}
 ggplot(mlda,
@@ -330,6 +336,8 @@ ggplot(mlda,
 
 <br>
 <br>
+
+
 
 #### Violations to the assumptions
 
